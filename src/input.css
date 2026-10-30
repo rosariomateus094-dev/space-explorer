@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+.ham1{
+    
+     transform:translate(-30px);
+     background:red;
+     transition:40ms linear;
+
+     
+}
+
+.ham2{
+
+     transform:translate(-18px);
+     background:red;
+     transition:40ms linear;
+
+}
+
+.ham3{
+
+     background:red;
+}
+
+.slide{
+
+     transform: translate(188px);
+     visibility:hidden;
+     
+}
+
+
+
+
+
+
+   
+
+
+

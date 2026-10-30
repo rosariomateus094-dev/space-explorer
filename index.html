@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>space explorer</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="relative bg-black">
+    
+
+<header class=" h-12 bg-yellow-400 relative flex items-center overflow-hidden">
+
+  <img src="logo/space.png" class="h-11 w-27">
+
+    <nav class="h-10 w-20   absolute right-2 flex flex-col justify-center items-end gap-1 " id="hamburguer">
+        
+        <div class="h-[10px] w-12 bg-gray-400 rounded-full transition" id="ham1"></div>
+        <div class="h-[10px] w-12 bg-gray-400 rounded-full transition" id="ham2"></div>
+        <div class="h-[10px] w-12 bg-gray-400 rounded-full " id="ham3"></div>
+
+
+    </nav>
+      
+    <div class="z-1 h-12 w-25 bg-blue-500  absolute right-22 rounded-t-[5px] slide transition" id="sl"></div>
+
+</header>
+
+  <div class="h-100 w-47 absolute right-0 overflow-hidden">
+     <div class="h-100 w-47 bg-blue-500 absolute right-0 rounded-b-[5px] slide transition-all " id="sl2"></div>
+  </div>   
+
+  
+  <main class="min-h-210 grid justify-center p-3 gap-2 mt-5">
+
+    <a href="#" class="min-h-60 w-73 border grid rounded-[5px] p-1 overflow-hidden bg-gray-300" id="card1">
+      <img src="" id="img1"  class="h-[100%] aspect-16/9" >
+      <p class="overflow-hidden mt-2 " id="texto1"></p>
+    </a>
+
+    <a href="#" class="min-h-60 w-73 border grid rounded-[5px] p-1 overflow-hidden bg-gray-300" id="card2">
+      <img src="" id="img2"  class="h-[100%] aspect-16/9" >
+      <p class="overflow-hidden mt-2" id="texto2"></p>
+    </a>
+
+    <a href="#" class="min-h-60 w-73 border grid rounded-[5px] p-1 overflow-hidden bg-gray-300" id="card3">
+      <img src="" id="img3" class="h-[100%] aspect-16/9" >
+      <p class="overflow-hidden mt-2" id="texto3"></p>
+    </a>
+
+    <a href="#" class="min-h-60 w-73 border grid rounded-[5px] p-1 overflow-hidden bg-gray-300" id="card4">
+      <img src="" id="img4"  class="h-[100%] aspect-16/9" >
+      <p class="overflow-hidden mt-2" id="texto4"></p>
+    </a>
+    
+
+  </main>
+ 
+
+  
+  <footer  class="h-25  bg-yellow-400">
+    
+  </footer>
+
+
+
+<script  src="API.js" type="module"></script>
+
+</body>
+</html>
